@@ -9,10 +9,6 @@ import (
 var errRequestFailed = errors.New("request failed")
 
 func main() {
-	hitUrl()
-}
-
-func hitUrl() {
 	var results = map[string]string{}
 	urls := []string{
 		"https://www.youtube.com/",
